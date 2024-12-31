@@ -43,7 +43,7 @@ const mongoose = require('mongoose'); // importing mongodb compiler
 // db.on('open', () => console.log(' Database Connected... ')); // otherwise show Database Connected
 // // database connection code end
 mongoose.connect(
-  "mongodb+srv://mishraparitosh31:pari31tosh@cluster0.nskf6.mongodb.net/billingproject?retryWrites=true&w=majority&appName=Cluster0", 
+  "mongodb+srv://mishraparitosh31:pari31tosh@cluster0.nskf6.mongodb.net/Rule_Engine?retryWrites=true&w=majority&appName=Cluster0", 
   { useNewUrlParser: true, useUnifiedTopology: true }
 )
   .then(() => console.log("Database Connected..."))
