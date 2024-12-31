@@ -93,7 +93,7 @@ const Dashboard = () => {
   }, [activeTab]);
 
   const fetchRules = () => {
-    fetch('http://localhost:5556/rules')
+    fetch('https://rule-based-evalution-backend.onrender.com/rules')
       .then((response) => response.json())
       .then((rulesArray) => {
         setRules(rulesArray);
@@ -167,7 +167,7 @@ const Dashboard = () => {
   };
 
   const submitRules = (array) => {
-    const url = 'http://localhost:5556/rules';
+    const url = 'https://rule-based-evalution-backend.onrender.com/rules';
     //console.log(selectedRules);
     const newRule = {
       rule: array
