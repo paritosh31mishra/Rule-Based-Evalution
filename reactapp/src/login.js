@@ -75,7 +75,7 @@ export default Login;
 
 import { GoogleOAuthProvider, GoogleLogin } from '@react-oauth/google';
 
-const oAuthKey = "925306536966-8krnsg2kdor08se5s6d47vla1pec5f2f.apps.googleusercontent.com";
+const oAuthKey = "1050865228486-13vmt2la5vqmdc49eciaq87h1qrq4t3n.apps.googleusercontent.com";
 
 const Login = () => {
   const onSuccess = (credentialResponse) => {
