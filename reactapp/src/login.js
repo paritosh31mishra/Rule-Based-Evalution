@@ -109,23 +109,20 @@ const Login = () => {
               <p className='subtitle'><b>Rules are the framework through which order is crafted and clarity is achieved.</b></p>
             </div>
           </div>
-          <div className="col-lg-4 mt-5 text-center">
+          <div className="col-lg-6 mt-5 text-center">
             <div className="p-4 login-box mt-4">
-              <div className='row '>
                 <h2 className="text-center">Login with Google</h2>
                 <hr />
-                <div className='mb-3 pt-4 text-center'>
+                <div className='mb-3 pt-4 '>
                   <p>
                     <GoogleLogin
                       onSuccess={onSuccess}
                       onError={onFailure}
                     />
                   </p>
-                </div>
               </div>
             </div>
           </div>
-          <div className="col-lg-2"></div>
         </div>
       </div>
     </section>
