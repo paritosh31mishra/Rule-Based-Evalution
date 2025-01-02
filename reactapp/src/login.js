@@ -103,7 +103,7 @@ const Login = () => {
 
       <div className="container p-5 mb-5">
         <div className="row p-5">
-          <div className="col-lg-6 p-5 mt-5">
+          <div className="col-lg-6 pt-5 mt-5 text-end">
             <div>
               <p className='title text-dark'><b>Rules</b></p>
               <p className='subtitle'><b>Rules are the framework through which order is crafted and clarity is achieved.</b></p>
