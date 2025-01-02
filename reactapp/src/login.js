@@ -96,7 +96,7 @@ const Login = () => {
       <nav className="navbar bg-dark border-bottom border-body p-4 h1">
         <div className="container-fluid">
           <span className="navbar-brand mb-0 h1 text-white">
-            <h2>Rule Engine</h2>
+            <h2>Rule Based Evalution</h2>
           </span>
         </div>
       </nav>
