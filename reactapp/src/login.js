@@ -109,7 +109,7 @@ const Login = () => {
               <p className='subtitle'><b>Rules are the framework through which order is crafted and clarity is achieved.</b></p>
             </div>
           </div>
-          <div className="col-lg-6 mt-5 text-center">
+          <div className="col-lg-6 mt-5 text-start">
             <div className="p-4 login-box mt-4">
                 <h2 className="text-center">Login with Google</h2>
                 <hr />
