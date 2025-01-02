@@ -38,7 +38,7 @@ const Header = () => {
   const logout = () => {
     googleLogout(); // Perform Google logout
     window.localStorage.clear(); // Clear localStorage
-    window.location.href = "http://localhost:3000/#/"; // Redirect to dashboard
+    window.location.href = "https://rule-based-evalution-frontend.onrender.com/#/"; // Redirect to dashboard
     window.location.reload(); // Reload the app
   };
 
