@@ -111,10 +111,10 @@ const Login = () => {
           </div>
           <div className="col-lg-4 mt-5 text-center">
             <div className="p-4 login-box mt-4">
-              <div className='row text-center'>
+              <div className='row '>
                 <h2 className="text-center">Login with Google</h2>
                 <hr />
-                <div className='mb-3 pt-4'>
+                <div className='mb-3 pt-4 text-center'>
                   <p>
                     <GoogleLogin
                       onSuccess={onSuccess}
