@@ -32,7 +32,7 @@ import { GoogleOAuthProvider } from '@react-oauth/google';
 import Portal from './portal';
 import Login from './login';
 
-const clientId = "925306536966-8krnsg2kdor08se5s6d47vla1pec5f2f.apps.googleusercontent.com";
+const clientId = "1050865228486-13vmt2la5vqmdc49eciaq87h1qrq4t3n.apps.googleusercontent.com";
 
 function App() {
   useEffect(() => {
