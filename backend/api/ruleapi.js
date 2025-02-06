@@ -5,25 +5,12 @@ module.exports = router;
 let Rule = require('../schema/ruleschema');
 
 
-
-
-
 router.get('/', async (req, res) => {
   let Rulelist = await Rule.find();
   // console.log(Rulelist);
   res.status(201).json(Rulelist);
 });
 
-
-
-// class ASTNode {
-//   constructor(type, value = null) {
-//     this.type = type; // 'condition', 'AND', 'OR'
-//     this.value = value; // The actual condition string for 'condition' type, null for 'AND'/'OR'
-//     this.left = null; // Left child (for binary operators)
-//     this.right = null; // Right child (for binary operators)
-//   }
-// }
 
 class ASTNode {
   constructor(type, value = null) {
