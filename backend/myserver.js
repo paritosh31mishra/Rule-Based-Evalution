@@ -32,16 +32,7 @@ app.use(express.json());
 
 //database connection code start
 const mongoose = require('mongoose'); // importing mongodb compiler
-// mongoose.connect('mongodb://127.0.0.1:27017/Rule_Engine', {
-//   useNewUrlParser: true,
-// });
-// //passing the url of database
-// // use ip address instead of domain name localhost:27017
 
-// const db = mongoose.connection; //connection to db
-// db.on('error', (error) => console.log(error)); // if error than show error
-// db.on('open', () => console.log(' Database Connected... ')); // otherwise show Database Connected
-// // database connection code end
 mongoose.connect(
   "mongodb+srv://mishraparitosh31:pari31tosh@cluster0.nskf6.mongodb.net/Rule_Engine?retryWrites=true&w=majority&appName=Cluster0", 
   { useNewUrlParser: true, useUnifiedTopology: true }
